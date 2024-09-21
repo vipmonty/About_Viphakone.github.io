@@ -1,9 +1,43 @@
+img {
+    float:right;
+    width: 299px;
+    margin-left: 5px;
+    position:relative;
+    left: -100px;
+    top: 40px;
+    border: white;
+    padding:  19px;
+    box-shadow: #333;
+    background-color:purple;
+
+    
+}
+
+header {
+    font-size: 50px;
+    color: red;
+    background-image: linear-gradient(to right, white, purple);
+}
+
 body {
+    
     text-align: left;
     font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #f4f4f4;
+    font-size: 12px;
+    margin: 15px;
+    background-color: #ffffff;
+    background-image: url(purpleRain.jpg);
+    background-position: center;
+    color: #cdde13;
 }
+
+p {
+    text-indent: 2em;
+    font-size: 12px;
+    margin-bottom: 9px;
+
+}
+
 
 h1,
 h2,
@@ -23,7 +57,7 @@ h1 {
     width: 300px;
     height: 500px;
     object-fit: cover;
-    text-align: left;
+    text-align: right;
     margin-left: 20px;
 }
 
@@ -38,13 +72,55 @@ table {
 
 th,
 td {
+    color: black;
     padding: 8px;
     text-align: left;
     vertical-align: top;
 }
 
+.dx {
+    background-color:rgb(46, 190, 46);
+}
+
+.rim {
+    background-color: rgb(115, 115, 182);
+}
+
+.teams {
+    background-color: #985252;
+}
+
+.lunch {
+    background-color: #3decf5;
+}
+
+.ten {
+    background-color: rgb(202, 182, 221);
+}
+
+.fifteen {
+    background-color: rgb(221, 156, 201);
+}
+
+.cs {
+    background-color: rgb(219, 83, 83);
+}
+
+.phil {
+    background-color: #cdde13;
+}
+
+.fam {
+    background-color: antiquewhite;
+}
+
+
+.study {
+    background-color: rgb(108, 241, 137);
+}
+
 th {
-    background-color: #4CAF50;
+    background-color: purple;
     color: white;
 }
 
